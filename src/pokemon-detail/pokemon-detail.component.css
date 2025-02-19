@@ -1,3 +1,6 @@
 :host {
-  display: block;
+  .container {
+    background-color: darkmagenta;
+    border-color: antiquewhite;
+  }
 }
