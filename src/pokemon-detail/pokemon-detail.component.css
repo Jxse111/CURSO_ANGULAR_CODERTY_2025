@@ -1,6 +1,14 @@
 :host {
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: darkmagenta;
-    border-color: antiquewhite;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
   }
 }
