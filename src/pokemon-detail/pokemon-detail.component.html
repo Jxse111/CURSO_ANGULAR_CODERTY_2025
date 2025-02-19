@@ -1,13 +1,20 @@
-<div class="container">
-<img [src]="imagen" [alt]="'imagen de' + pokemon" height="175" width="175" />
-<h1>{{ pokemon }}</h1>
-<h2>Skills</h2>
-@for (skill of skills; track $index) {
-<p>{{ skill }}</p>
-}
-<h3>Type</h3>
-@for (type of types; track $index) {
-<p>{{ type }}</p>
-}
-<button (click)="clickName.emit('botón pulsado')">Botón</button>
+<div class="pokedex-container">
+  <div class="container">
+    <img
+      [src]="imagen"
+      [alt]="'imagen de' + pokemon"
+      height="175"
+      width="175"
+    />
+    <h1>{{ pokemon }}</h1>
+    <h2>Skills</h2>
+    @for (skill of skills; track $index) {
+    <p>{{ skill }}</p>
+    }
+    <h3>Type</h3>
+    @for (type of types; track $index) {
+    <p>{{ type }}</p>
+    }
+    <button (click)="clickName.emit('botón pulsado')">Botón</button>
+  </div>
 </div>
