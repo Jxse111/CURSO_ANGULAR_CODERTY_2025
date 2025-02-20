@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  /* Estilos para el botón */
+  button {
+    background-color: #c00000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+}
