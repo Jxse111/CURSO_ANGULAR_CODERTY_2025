@@ -2,15 +2,19 @@
   display: block;
   /* Estilos para el botón */
   button {
-    background-color: #c00000;
+    background-color:#C12026;
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(168, 0, 0);
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     margin-top: 10px;
+  }
+  button:hover {
+    background-color: #ff3131;
+    border-color: yellow;
   }
 }
