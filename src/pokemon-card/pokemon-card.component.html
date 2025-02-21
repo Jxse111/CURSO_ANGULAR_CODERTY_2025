@@ -1,0 +1,12 @@
+<div class="pokedex-container">
+  <div class="container">
+    <img
+      [src]="imagen"
+      [alt]="'imagen de' + pokemon"
+      height="175"
+      width="175"
+    />
+    <h1>{{ pokemon }}</h1>
+    <button (click)="clickName.emit(pokemon)">Ver Pokemon</button>
+  </div>
+</div>

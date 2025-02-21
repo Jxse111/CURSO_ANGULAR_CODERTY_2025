@@ -14,6 +14,11 @@ export const routes: Routes = [
       ),
   },
   {
+    path: "pokemon/:pokemonId",
+    loadComponent: () =>
+      import("../pokemon/pokemon.component").then((c) => c.PokemonComponent),
+  },
+  {
     path: "**",
     loadComponent: () =>
       import("../not-found/not-found.component").then(

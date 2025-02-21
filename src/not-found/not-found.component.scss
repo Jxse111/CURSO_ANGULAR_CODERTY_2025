@@ -1,9 +1,13 @@
 :host {
   display: block;
-  body {
-    background: url("https://support.heberjahiz.com/hc/article_attachments/21013076295570")
-      no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-  }
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background: url("images/404NotFound.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
 }

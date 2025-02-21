@@ -2,7 +2,7 @@
   display: block;
   /* Estilos para el botón */
   button {
-    background-color:#C12026;
+    background-color: #c12026;
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
@@ -12,7 +12,10 @@
     cursor: pointer;
     transition: 0.3s;
     margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+
   button:hover {
     background-color: #ff3131;
     border-color: yellow;

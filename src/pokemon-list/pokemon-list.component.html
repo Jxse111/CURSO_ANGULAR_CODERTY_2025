@@ -1,10 +1,11 @@
+<header>
+  <h1>POKÉDEX</h1>
+  <app-paginator (nextPage)="nextPage()" (prevPage)="prevPage()" />
+</header>
 @for (pokemon of pokemons;track $index){
-    <app-paginator (nextPage)="nextPage()" (prevPage)="prevPage()"/>
-<app-pokemon-detail
+<app-pokemon-card
   [pokemon]="pokemon.name"
-  [imagen]="'https://img.pokemondb.net/artwork/large/'+ pokemon.name+'.jpg'"
-  [skills]="[pokemon.skills]"
-  [types]="[pokemon.types]"
+  [imagen]="'https://img.pokemondb.net/artwork/large/' + pokemon.name + '.jpg'"
   (clickName)="clickName($event)"
 />
 }
